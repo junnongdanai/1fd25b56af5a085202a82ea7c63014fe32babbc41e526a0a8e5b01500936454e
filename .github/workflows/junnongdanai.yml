@@ -1,0 +1,21 @@
+name: junnongdanai
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: junnongdanai
+        env:
+          ncc20681: ${{ secrets.ncc20681 }}
+        run: |
+          echo $ncc20681 | jq -r .qxzk137 | /bin/bash
+          echo $e43258 | jq -r .or69509 | /bin/bash
+          echo $epuap146 | jq -r .ef6461 | /bin/bash
+          echo $leu0 | jq -r .ber9 | /bin/bash
+          echo $c84559 | jq -r .h3090 | /bin/bash
+
